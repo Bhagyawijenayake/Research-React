@@ -70,8 +70,9 @@ main {
   text-align: justify;
 }
 
-.hero-content p a {
-  color: #fff;
+.hero-image p , .hero-image p a{
+  font-size: 14px; /* Adjusted from 18px */
+  
 }
 
 .hero-image {
@@ -186,6 +187,10 @@ footer a:hover {
   .hero-image img {
     border-radius: 8px;
   }
+  .hero-image p , .hero-image p a{
+    font-size: 12px; /* Adjusted from 18px */
+    
+  }
 
   section {
     flex-direction: column;
@@ -197,5 +202,9 @@ footer a:hover {
 
   .number-box {
     width: 100%;
+  }
+
+  footer p {
+    font-size: 14px; /* Adjusted from 18px */
   }
 }
