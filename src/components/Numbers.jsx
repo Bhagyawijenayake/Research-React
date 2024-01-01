@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 
 const Numbers = ({ data }) => {
   return (
+    <section>
     <div id="numbers-container">
       {data ? (
         data.map(([key, value]) => (
@@ -18,6 +19,7 @@ const Numbers = ({ data }) => {
         <p>Loading...</p>
       )}
     </div>
+    </section>
   );
 };
 
