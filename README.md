@@ -47,7 +47,7 @@ To build and run the application, follow these steps:
     After the image is built, you can run it with the following command:
 
     ```bash
-    docker run --name react-app -d -p 8080:80 react-app:nginx
+    docker run --name react-app -d -p 8081:80 react-app:nginx
     ```
 
     This command runs a Docker container from the `react-app:nginx` image, names it `react-app`, and maps port 8080 on your machine to port 80 on the container.
